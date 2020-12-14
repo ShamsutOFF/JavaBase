@@ -13,6 +13,7 @@ public class HomeWork01 {
         System.out.println("Ответ на треью задачу: " + thirdPart(a));
         System.out.println("Ответ на четвертую задачу: " + fourthPart(name));
         System.out.println(fifthPart(year));
+
     }
 
     public static double firstPart(double a, double b,
