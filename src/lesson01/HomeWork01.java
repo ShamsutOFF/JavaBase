@@ -22,9 +22,10 @@ public class HomeWork01 {
     }
 
     public static boolean secondPart(int a, int b){
-        boolean answer2;
-        answer2 = 10 <= (a + b) && (a + b) <= 20;
-        return answer2;
+        return 10 <= (a + b) && (a + b) <= 20;
+//        boolean answer2;
+//        answer2 = 10 <= (a + b) && (a + b) <= 20;
+//        return answer2;
     }
 
     public static String thirdPart(int a){
