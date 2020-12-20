@@ -45,7 +45,7 @@ public class HomeWork03 {
     }
     //========= Проверка на победу ==========//
     public static boolean checkWin(char symb) {
-        int score = 0;
+        int score;
         //========= Подсчет горизонталей ==========//
         for (int x = 0; x < SIZE; x++) {
             score = 0;
@@ -110,7 +110,7 @@ public class HomeWork03 {
         do {
             x = rand.nextInt(SIZE);
             y = rand.nextInt(SIZE);
-        } while (!isCellValid(x, y));
+        } while (!aiEmty(x, y));
         System.out.println("Компьютер сходил в точку " + (x + 1) + " " + (y + 1));
         map[y][x] = DOT_O;
     }
@@ -120,7 +120,7 @@ public class HomeWork03 {
             System.out.println("Введите координаты в формате X Y");
             x = sc.nextInt() - 1;
             y = sc.nextInt() - 1;
-        } while (!aiEmty(x, y)); // while(isCellValid(x, y) == false)
+        } while (!isCellValid(x, y)); // while(isCellValid(x, y) == false)
         map[y][x] = DOT_X;
     }
     public static boolean restart() {
