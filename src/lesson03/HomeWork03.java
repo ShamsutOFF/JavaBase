@@ -43,6 +43,7 @@ public class HomeWork03 {
         System.out.println("Игра закончена");
     } while (restart());
     }
+    //========= Проверка на победу ==========//
     public static boolean checkWin(char symb) {
         int score = 0;
         //========= Подсчет горизонталей ==========//
