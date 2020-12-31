@@ -8,6 +8,7 @@ public class HomeWork04 {
         return ++a;
     }
     //5.1 Создать массив из 5 сотрудников.
+    
     public static void main(String[] args) {
 
         Employee[] employees = {
