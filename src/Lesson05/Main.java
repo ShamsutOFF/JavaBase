@@ -11,8 +11,10 @@ public class Main {
         Cat cat = new Cat("Котик ", 200,0,2);
         Dog dog = new Dog("Песик ", 500, 10,0.5);
         Horse horse = new Horse("Лошадка ",1500,100,3);
+        Dog dog2 = new Dog("Песик 2 ", 400, 20,1);
+        Horse horse2 = new Horse("Лошадка 2 ",2500,60,2.5);
 
-        Animal[] animals = {bird, cat, dog, horse};
+        Animal[] animals = {bird, cat, dog, horse, dog2, horse2};
         System.out.println("\nСоревнование по бегу на дистанцию " + runDist);
         for (int i = 0; i < animals.length; i++) {
             animals[i].running(runDist);
