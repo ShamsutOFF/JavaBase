@@ -7,7 +7,7 @@ public class HomeWork03 {
 
     public static final int SIZE = 10;
     public static final int DOTS_TO_WIN = 4;
-    public static final char DOT_EMPTY = '•';
+    public static final char DOT_EMPTY = '-';
     public static final char DOT_X = 'X';
     public static final char DOT_O = 'O';
     public static char[][] map;
