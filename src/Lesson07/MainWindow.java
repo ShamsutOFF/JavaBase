@@ -13,7 +13,6 @@ public class MainWindow extends JFrame {
     MainWindow() {
         setDefaultCloseOperation (EXIT_ON_CLOSE);
         setSize (WIN_WIDTH,WIN_HEIGHT);
-        // setLocation (WIN_POSX,WIN_POSY);
         setLocationRelativeTo(null);
         setTitle ("Игра \"Крестики-Нолики\"");
         setResizable (false);
@@ -41,7 +40,7 @@ public class MainWindow extends JFrame {
     }
 
     public void startNewGame(int mode, int fieldSizeX, int fieldSizeY, int winLength) {
-        //gameMap.startNewGame(mode,fieldSizeX,fieldSizeY,winLength);
+        gameMap.startNewGame(mode,fieldSizeX,fieldSizeY,winLength);
         //System.out.println ("mode = " + mode +
              //   " fieldSizeX = " + fieldSizeX +
              //   " fieldSizeY = " + fieldSizeY +
