@@ -22,21 +22,24 @@ public class HomeWork01 {
     }
 
     public static boolean secondPart(int a, int b){
-        boolean answer2;
-        answer2 = 10 <= (a + b) && (a + b) <= 20;
-        return answer2;
+        return 10 <= (a + b) && (a + b) <= 20;
+//        boolean answer2;
+//        answer2 = 10 <= (a + b) && (a + b) <= 20;
+//        return answer2;
     }
 
     public static String thirdPart(int a){
-        String answer3;
-        if (a >= 0){
-            answer3 = "Число а положительное";
-        } else answer3 = "Число а отрицательное";
-        return answer3;
+        return (a >= 0) ? "Число а положительное" : "Число а отрицательное";
+        //        String answer3;
+//        if (a >= 0){
+//            answer3 = "Число а положительное";
+//        } else answer3 = "Число а отрицательное";
+//        return answer3;
     }
+
+
     public static String fourthPart (String name){
-        String answer4 = "Привет, " + name + "!";
-        return answer4;
+        return "Привет, " + name + "!";
     }
 
     public static String fifthPart(int year){
@@ -44,7 +47,6 @@ public class HomeWork01 {
         if (year % 4 == 0 && year % 100 !=0) answer5 = "Год " + year + " високосный";
         else if(year % 400 == 0) answer5 = "Год " + year + " високосный";
         else answer5 = "Год " + year + " обычный";
-
         return answer5;
     }
 }
